@@ -23,3 +23,17 @@ byte orientation(byte orient, char turning){
 
     return(orient);
 }
+
+byte updateCoordinates(){//byte x, byte y, byte orient){
+    
+    if (orient==0)
+        y=y+1;
+    if (orient==1)
+        x=x+1;
+    if (orient==2)
+        y=y-1;
+    if (orient==3)
+        x=x-1;
+
+    //return(x,y);
+}
