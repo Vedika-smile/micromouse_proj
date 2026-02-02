@@ -1,7 +1,7 @@
-Micro-Mouse Autonomous Maze-Solving Robot
+# Micro-Mouse Autonomous Maze-Solving Robot
 An autonomous Micromouse robot designed to navigate and solve an unknown maze using efficient path-planning and precise motor control. The system integrates embedded hardware, real-time sensor feedback, and control algorithms to achieve reliable maze traversal.
 
-📌 Project Overview
+ ## Project Overview
 
 This project focuses on designing and implementing a self-contained autonomous robot capable of:
 
@@ -15,7 +15,7 @@ Reaching the destination efficiently
 
 The robot is built around an STM32 microcontroller with custom hardware prototyping and closed-loop control.
 
-🧠 Key Features
+## Key Features
 
 Flood-Fill Algorithm for maze exploration and shortest path planning
 
@@ -27,7 +27,7 @@ Rotary encoders for precise position and speed feedback
 
 Fully autonomous operation without external communication
 
-🛠️ Hardware Components
+## Hardware Components
 
 Microcontroller: STM32F401ccu6
 
@@ -39,7 +39,7 @@ Motor Driver: H-bridge motor driver ( TB6612FNG)
 
 Power Supply: Battery-powered embedded system
 
-💻 Software & Tools
+## Software & Tools
 
 IDE / Toolchain: STM32CubeIDE
 
@@ -47,7 +47,7 @@ Algorithms: Flood-Fill, PID Control
 
 Debugging: On-board debugging and serial logs
 
-🧮 Algorithms Used
+## Algorithms Used
 🔹 Flood-Fill Algorithm
 
 Dynamically assigns distance values to maze cells
